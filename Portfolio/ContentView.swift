@@ -21,7 +21,7 @@ struct ContentView: View {
                         Text("Interest")
                     }
                 
-                AboutView()
+                SkillsView()
                     .tag(1)
                     .tabItem {
                         Image(systemName: "chart.bar.doc.horizontal")

@@ -13,6 +13,7 @@
 		0807FAB829B6DF7E0054A9DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0807FAB729B6DF7E0054A9DE /* Preview Assets.xcassets */; };
 		0866634029B8378C00615E27 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0866633F29B8378C00615E27 /* ProjectsView.swift */; };
 		0866634229B841A400615E27 /* ProjectsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0866634129B841A400615E27 /* ProjectsItemView.swift */; };
+		0866634429B898A700615E27 /* SkillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0866634329B898A700615E27 /* SkillsView.swift */; };
 		08ED03CC29B76418008B0352 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08ED03CB29B76418008B0352 /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		0807FAB729B6DF7E0054A9DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0866633F29B8378C00615E27 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		0866634129B841A400615E27 /* ProjectsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsItemView.swift; sourceTree = "<group>"; };
+		0866634329B898A700615E27 /* SkillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsView.swift; sourceTree = "<group>"; };
 		08ED03CB29B76418008B0352 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +82,7 @@
 				08ED03CB29B76418008B0352 /* AboutView.swift */,
 				0866633F29B8378C00615E27 /* ProjectsView.swift */,
 				0866634129B841A400615E27 /* ProjectsItemView.swift */,
+				0866634329B898A700615E27 /* SkillsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -100,6 +103,8 @@
 			dependencies = (
 			);
 			name = Portfolio;
+			packageProductDependencies = (
+			);
 			productName = Portfolio;
 			productReference = 0807FAAD29B6DF7B0054A9DE /* Portfolio.app */;
 			productType = "com.apple.product-type.application";
@@ -128,6 +133,8 @@
 				Base,
 			);
 			mainGroup = 0807FAA429B6DF7B0054A9DE;
+			packageReferences = (
+			);
 			productRefGroup = 0807FAAE29B6DF7B0054A9DE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -154,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0866634429B898A700615E27 /* SkillsView.swift in Sources */,
 				0807FAB329B6DF7B0054A9DE /* ContentView.swift in Sources */,
 				0866634229B841A400615E27 /* ProjectsItemView.swift in Sources */,
 				08ED03CC29B76418008B0352 /* AboutView.swift in Sources */,
