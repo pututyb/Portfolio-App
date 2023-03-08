@@ -45,7 +45,7 @@ struct ContentView: View {
                         Text("Education")
                     }
                 
-                AboutView()
+                ProjectsView()
                     .tag(4)
                     .tabItem {
                         Image(systemName: "iphone")

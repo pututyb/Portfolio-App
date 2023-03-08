@@ -16,7 +16,7 @@ struct AboutView: View {
                 Image("foto")
                     .resizable()
                     .aspectRatio(contentMode: .fill)
-                    .frame(width: 200, height: 200)
+                    .frame(width: 250, height: 250)
                     .clipShape(Circle())
                 
                     HStack {
@@ -89,7 +89,7 @@ struct AboutView: View {
                 Text("I am a software engineer based in Bekasi, Inddonesia. I specialize in ios development for mobile applications.")
                     .multilineTextAlignment(.center)
                     .foregroundColor(.white)
-                    .font(.system(size: 18, weight: .light))
+                    .font(.system(size: 20, weight: .light))
                     .opacity(0.9)
                     .padding(.bottom)
                 
