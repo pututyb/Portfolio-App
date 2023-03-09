@@ -6,12 +6,11 @@
 //
 
 import SwiftUI
-import SwiftUICharts
 
 struct SkillsView: View {
     var body: some View {
         ZStack {
-            LinearGradient(colors: [Color("bg2"), Color("font")], startPoint: .top, endPoint: .bottom)
+            LinearGradient(colors: [Color("bg1"), Color("bg2")], startPoint: .top, endPoint: .bottom)
             
             VStack(alignment: .leading) {
                 Spacer()

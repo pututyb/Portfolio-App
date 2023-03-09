@@ -13,7 +13,7 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             TabView(selection: $selectedTab) {
-                AboutView()
+                InterestView()
                     .tag(0)
                     .tabItem {
                         Image(systemName: "heart")
@@ -37,7 +37,7 @@ struct ContentView: View {
                         Text("About")
                     }
                 
-                AboutView()
+                EducationView()
                     .tag(3)
                     .tabItem {
                         Image(systemName: "graduationcap")
